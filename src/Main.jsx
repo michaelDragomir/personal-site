@@ -7,13 +7,15 @@ const MainPage = () => {
 		<main className=''>
 			<section>
 				<header className='text-white text-5xl mt-[75px]'>
-					<h1 className='font-extrabold'>Hi👋, I'm Michael Dragomir</h1>
+					<h1 className='font-extrabold font-sans'>
+						Hi👋, I'm Michael Dragomir
+					</h1>
 					<h2 className='text-[28px] mt-3'>
 						I am a Web developer from Los Angeles, CA.
 					</h2>
 				</header>
 				<div className=''>
-					<p className='text-white text-xl'>
+					<p className='text-white text-xl font-sans'>
 						I have a keen interest in building JavaScript-based frontend
 						technologies for all kinds of devices. I have mostly been working on
 						Video Streaming software for the last six years. Currently, I am a
@@ -114,8 +116,8 @@ const MainPage = () => {
 			<aside>
 				<img src={pic} alt='pic of me' />
 				<div className='flex space-x-3'>
-					<img src={gmail} alt='' />
-					<img src={linkedIn} alt='' />
+					<img className='hover:scale-110' src={gmail} alt='' />
+					<img className='hover:scale-110' src={linkedIn} alt='' />
 				</div>
 			</aside>
 		</main>
