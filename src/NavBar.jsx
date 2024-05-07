@@ -1,9 +1,9 @@
 const NavBar = () => {
-	const NavItems = ['about', 'experience', 'development', 'contact'];
+	const NavItems = ['About', 'Experience', 'Development', 'Contact'];
 	return (
-		<div className='uppercase flex justify-center space-x-6 bg-blue-600 rounded-full w-[35rem] mt-8 drop-shadow-[0px_2px_7px_rgba(37,99,235,0.90)]'>
+		<div className='flex justify-center space-x-6 bg-blue-600 rounded-full w-[28rem] mt-8 drop-shadow-[0px_2px_7px_rgba(37,99,235,0.90)] p-2'>
 			{NavItems.map((item) => (
-				<div className='text-white font-sans p-2 cursor-pointer tracking-[.08em]'>
+				<div className='text-white font-sans cursor-pointer font-semibold tracking-[.08em]'>
 					{item}
 				</div>
 			))}
