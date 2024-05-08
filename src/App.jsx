@@ -4,7 +4,7 @@ import './index.css';
 
 function App() {
 	return (
-		<main className='bg-slate-900'>
+		<main className=''>
 			<div className='sticky top-0 flex justify-center'>
 				<NavBar />
 			</div>

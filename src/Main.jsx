@@ -109,15 +109,23 @@ const MainPage = () => {
 						Workspaces = awesome DX). Contact If you’re looking for a solid
 						frontend staff level engineer for your team or a technical
 						co-founder to build an impressive MVP I’d love to connect. You can
-						email me at jschuster.dev@gmail.com
+						email me at{' '}
+						<a
+							href='mailto:michaeldragomir@gmail.com'
+							className='text-violet-400 active:text-violet-700'
+						>
+							michaeldragomir@gmail.com
+						</a>
 					</p>
 				</div>
 			</section>
 			<aside>
-				<img src={pic} alt='pic of me' />
+				<img src={pic} alt='pic of me' width={200} />
 				<div className='flex space-x-3'>
-					<img className='hover:scale-110' src={gmail} alt='' />
-					<img className='hover:scale-110' src={linkedIn} alt='' />
+					<img className='hover:scale-110' src={gmail} alt='' />{' '}
+					{/* add email linl */}
+					<img className='hover:scale-110' src={linkedIn} alt='' />{' '}
+					{/* add linkedIn linl */}
 				</div>
 			</aside>
 		</main>
