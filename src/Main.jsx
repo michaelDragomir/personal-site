@@ -5,9 +5,14 @@ import linkedIn from './assets/linedIn.svg';
 const MainPage = () => {
 	return (
 		<main className='pt-36 pb-12 md:pt-40 md:pb-16 lg:pt-44 lg:pb-24'>
-			<div className='container grid gap-12 px-4 md:grid-cols-[300px_1fr] md:gap-16 md:px-6 lg:gap-24'>
-				<div className='sticky top-20 flex flex-col items-center gap-6'>
-					<img src={pic} alt='pic of me' width={200} />
+			<div className='container grid mx-auto px-4 md:grid-cols-[300px_1fr] md:gap-16 lg:gap-12'>
+				<div className='mt-4 flex flex-col items-center gap-4 mt'>
+					<img
+						className='rounded-lg border-4 border-sky-600'
+						src={pic}
+						alt='pic of me'
+						width={200}
+					/>
 					<div className='flex space-x-3'>
 						<a href='mailto:michaeldragomir@gmail.com'>
 							<img className='hover:scale-110' src={gmail} alt='gmail' />
@@ -17,13 +22,19 @@ const MainPage = () => {
 						</a>
 					</div>
 				</div>
-				<div className='prose prose-gray mx-auto max-w-none text-gray-300 overflow-y-auto max-h-[calc(100vh-9rem)]'>
+				<div className='prose prose-gray mx-auto max-w-none text-gray-300'>
+					<h1 className='text-[40px] font-semibold'>
+						Hi👋, I'm Michael Dragomir,
+					</h1>
+					<h2 className='mb-8 text-[24px] font-semibold text-gray-400'>
+						I am a Web developer from Los Angeles, CA.
+					</h2>
 					<p>
-						Hi there! I'm John Doe, a passionate software engineer with a
-						diverse background and a wide range of interests. I've been working
-						in the tech industry for over a decade, and during that time, I've
-						had the opportunity to work on a variety of projects, from web
-						applications to mobile apps and everything in between.
+						A passionate software engineer with a diverse background and a wide
+						range of interests. I've been working in the tech industry for over
+						a decade, and during that time, I've had the opportunity to work on
+						a variety of projects, from web applications to mobile apps and
+						everything in between.
 					</p>
 					<p>
 						My journey in the world of technology began when I was just a kid,
