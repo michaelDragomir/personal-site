@@ -4,14 +4,12 @@ import './index.css';
 
 function App() {
 	return (
-		<main className=''>
+		<div className='max-w-[1700px] relative'>
 			<div className='sticky top-0 flex justify-center'>
 				<NavBar />
 			</div>
-			<div className=''>
-				<MainPage />
-			</div>
-		</main>
+			<MainPage />
+		</div>
 	);
 }
 
