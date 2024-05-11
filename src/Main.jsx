@@ -5,8 +5,8 @@ import linkedIn from './assets/linedIn.svg';
 const MainPage = () => {
 	return (
 		<main className='pt-36 pb-12 md:pt-40 md:pb-16 lg:pt-44 lg:pb-24'>
-			<div className='container grid mx-auto px-4 md:grid-cols-[300px_1fr] md:gap-16 lg:gap-12'>
-				<div className='mt-4 flex flex-col items-center gap-4 mt'>
+			<div className='container mx-auto lg:pr-12 flex'>
+				<div className='mt-4 flex flex-col items-center gap-4 mt fixed right-[220px] justify-end'>
 					<img
 						className='rounded-lg border-4 border-sky-600'
 						src={pic}
@@ -22,7 +22,7 @@ const MainPage = () => {
 						</a>
 					</div>
 				</div>
-				<div className='prose prose-gray mx-auto max-w-none text-gray-300'>
+				<div className='prose prose-gray mx-auto max-w-none text-gray-300 flex flex-col w-[65%]'>
 					<h1 className='text-[40px] font-semibold'>
 						Hi👋, I'm Michael Dragomir,
 					</h1>
@@ -322,4 +322,185 @@ export default MainPage;
 // 			{/* add linkedIn linl */}
 // 		</div>
 // 	</aside>
+// </main>;
+
+// <main className='pt-36 pb-12 md:pt-40 md:pb-16 lg:pt-44 lg:pb-24 absolute'>
+// 	<div className='mt-4 flex flex-col items-center gap-4 mt fixed'>
+// 		<img
+// 			className='rounded-lg border-4 border-sky-600'
+// 			src={pic}
+// 			alt='pic of me'
+// 			width={200}
+// 		/>
+// 		<div className='flex space-x-3'>
+// 			<a href='mailto:michaeldragomir@gmail.com'>
+// 				<img className='hover:scale-110' src={gmail} alt='gmail' />
+// 			</a>
+// 			<a href='https://www.linkedin.com/in/michaeldragomir/'>
+// 				<img className='hover:scale-110' src={linkedIn} alt='linkedIn' />
+// 			</a>
+// 		</div>
+// 	</div>
+// 	<div className='container grid mx-auto lg:grid-cols-[300px_1fr] md:grid-cols-none lg:pr-12'>
+// 		<div className='prose prose-gray mx-auto max-w-none text-gray-300'>
+// 			<h1 className='text-[40px] font-semibold'>Hi👋, I'm Michael Dragomir,</h1>
+// 			<h2 className='mb-8 text-[24px] font-semibold text-gray-400'>
+// 				I am a Web developer from Los Angeles, CA.
+// 			</h2>
+// 			<p>
+// 				A passionate software engineer with a diverse background and a wide
+// 				range of interests. I've been working in the tech industry for over a
+// 				decade, and during that time, I've had the opportunity to work on a
+// 				variety of projects, from web applications to mobile apps and everything
+// 				in between.
+// 			</p>
+// 			<p>
+// 				My journey in the world of technology began when I was just a kid,
+// 				tinkering with computers and learning to code. I've always been
+// 				fascinated by the way technology can be used to solve problems and
+// 				improve people's lives. That's why I decided to pursue a career in
+// 				software engineering, where I could put my problem-solving skills and
+// 				creativity to the test.
+// 			</p>
+// 			<p>
+// 				Over the years, I've had the chance to work with some amazing teams and
+// 				collaborate with talented individuals from all over the world. I've
+// 				learned a lot along the way, and I'm always eager to continue expanding
+// 				my knowledge and skills. Whether it's exploring new programming
+// 				languages, diving into the latest frameworks and technologies, or
+// 				tackling complex technical challenges, I'm always up for a new
+// 				adventure.
+// 			</p>
+// 			<p>
+// 				When I'm not coding, you can find me exploring the great outdoors,
+// 				reading a good book, or trying my hand at a new hobby. I'm a passionate
+// 				traveler, and I love to immerse myself in different cultures and learn
+// 				about the world around me. I'm also an avid photographer, and I enjoy
+// 				capturing the beauty of the natural world through my lens.
+// 			</p>
+// 			<p>
+// 				Overall, I'm a curious and driven individual who is always striving to
+// 				learn and grow. I'm excited to connect with others who share my passion
+// 				for technology and innovation, and I look forward to collaborating on
+// 				exciting new projects in the future.
+// 			</p>
+// 			<p>
+// 				Hi there! I'm John Doe, a passionate software engineer with a diverse
+// 				background and a wide range of interests. I've been working in the tech
+// 				industry for over a decade, and during that time, I've had the
+// 				opportunity to work on a variety of projects, from web applications to
+// 				mobile apps and everything in between.
+// 			</p>
+// 			<p>
+// 				My journey in the world of technology began when I was just a kid,
+// 				tinkering with computers and learning to code. I've always been
+// 				fascinated by the way technology can be used to solve problems and
+// 				improve people's lives. That's why I decided to pursue a career in
+// 				software engineering, where I could put my problem-solving skills and
+// 				creativity to the test.
+// 			</p>
+// 			<p>
+// 				Over the years, I've had the chance to work with some amazing teams and
+// 				collaborate with talented individuals from all over the world. I've
+// 				learned a lot along the way, and I'm always eager to continue expanding
+// 				my knowledge and skills. Whether it's exploring new programming
+// 				languages, diving into the latest frameworks and technologies, or
+// 				tackling complex technical challenges, I'm always up for a new
+// 				adventure.
+// 			</p>
+// 			<p>
+// 				When I'm not coding, you can find me exploring the great outdoors,
+// 				reading a good book, or trying my hand at a new hobby. I'm a passionate
+// 				traveler, and I love to immerse myself in different cultures and learn
+// 				about the world around me. I'm also an avid photographer, and I enjoy
+// 				capturing the beauty of the natural world through my lens.
+// 			</p>
+// 			<p>
+// 				Overall, I'm a curious and driven individual who is always striving to
+// 				learn and grow. I'm excited to connect with others who share my passion
+// 				for technology and innovation, and I look forward to collaborating on
+// 				exciting new projects in the future.
+// 			</p>
+// 			<p>
+// 				Hi there! I'm John Doe, a passionate software engineer with a diverse
+// 				background and a wide range of interests. I've been working in the tech
+// 				industry for over a decade, and during that time, I've had the
+// 				opportunity to work on a variety of projects, from web applications to
+// 				mobile apps and everything in between.
+// 			</p>
+// 			<p>
+// 				My journey in the world of technology began when I was just a kid,
+// 				tinkering with computers and learning to code. I've always been
+// 				fascinated by the way technology can be used to solve problems and
+// 				improve people's lives. That's why I decided to pursue a career in
+// 				software engineering, where I could put my problem-solving skills and
+// 				creativity to the test.
+// 			</p>
+// 			<p>
+// 				Over the years, I've had the chance to work with some amazing teams and
+// 				collaborate with talented individuals from all over the world. I've
+// 				learned a lot along the way, and I'm always eager to continue expanding
+// 				my knowledge and skills. Whether it's exploring new programming
+// 				languages, diving into the latest frameworks and technologies, or
+// 				tackling complex technical challenges, I'm always up for a new
+// 				adventure.
+// 			</p>
+// 			<p>
+// 				When I'm not coding, you can find me exploring the great outdoors,
+// 				reading a good book, or trying my hand at a new hobby. I'm a passionate
+// 				traveler, and I love to immerse myself in different cultures and learn
+// 				about the world around me. I'm also an avid photographer, and I enjoy
+// 				capturing the beauty of the natural world through my lens.
+// 			</p>
+// 			<p>
+// 				Overall, I'm a curious and driven individual who is always striving to
+// 				learn and grow. I'm excited to connect with others who share my passion
+// 				for technology and innovation, and I look forward to collaborating on
+// 				exciting new projects in the future.
+// 			</p>
+// 			<p>
+// 				Hi there! I'm John Doe, a passionate software engineer with a diverse
+// 				background and a wide range of interests. I've been working in the tech
+// 				industry for over a decade, and during that time, I've had the
+// 				opportunity to work on a variety of projects, from web applications to
+// 				mobile apps and everything in between.
+// 			</p>
+// 			<p>
+// 				My journey in the world of technology began when I was just a kid,
+// 				tinkering with computers and learning to code. I've always been
+// 				fascinated by the way technology can be used to solve problems and
+// 				improve people's lives. That's why I decided to pursue a career in
+// 				software engineering, where I could put my problem-solving skills and
+// 				creativity to the test.
+// 			</p>
+// 			<p>
+// 				Over the years, I've had the chance to work with some amazing teams and
+// 				collaborate with talented individuals from all over the world. I've
+// 				learned a lot along the way, and I'm always eager to continue expanding
+// 				my knowledge and skills. Whether it's exploring new programming
+// 				languages, diving into the latest frameworks and technologies, or
+// 				tackling complex technical challenges, I'm always up for a new
+// 				adventure.
+// 			</p>
+// 			<p>
+// 				When I'm not coding, you can find me exploring the great outdoors,
+// 				reading a good book, or trying my hand at a new hobby. I'm a passionate
+// 				traveler, and I love to immerse myself in different cultures and learn
+// 				about the world around me. I'm also an avid photographer, and I enjoy
+// 				capturing the beauty of the natural world through my lens.
+// 			</p>
+// 			<p>
+// 				Overall, I'm a curious and driven individual who is always striving to
+// 				learn and grow. I'm excited to connect with others who share my passion
+// 				for technology and innovation, and I look forward to collaborating on
+// 				exciting new projects in the future. You can email me at{' '}
+// 				<a
+// 					href='mailto:michaeldragomir@gmail.com'
+// 					className='text-violet-400 active:text-violet-700'
+// 				>
+// 					michaeldragomir@gmail.com
+// 				</a>
+// 			</p>
+// 		</div>
+// 	</div>
 // </main>;
