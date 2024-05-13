@@ -4,7 +4,7 @@ import linkedIn from './assets/linedIn.svg';
 
 const MainPage = () => {
 	return (
-		<main className='flex w-full mb-[80px] py-[80px] phone:px-[60px] lg:px-[180px]'>
+		<main className='flex mb-[80px] py-[80px] phone:px-[60px] lg:px-[180px]'>
 			<div className='container flex flex-col'>
 				<div className='mt-4 flex flex-col items-center gap-4 lg:absolute lg:right-[200px] justify-end'>
 					<img
@@ -23,165 +23,121 @@ const MainPage = () => {
 					</div>
 				</div>
 				<div className='prose prose-gray max-w-none text-gray-300 flex flex-col md:w-[74%]'>
-					<h1 className='sm:text-[35px] font-semibold phone:text-[30px] phone:mt-4'>
-						Hi👋, I'm Michael Dragomir,
+					<h1 className='sm:text-[40px] font-semibold phone:text-[30px] phone:mt-4'>
+						Hi👋, I'm Michael Dragomir
 					</h1>
-					<h2 className='mb-8 phone:text-[18px] sm::text-[24px] font-semibold text-gray-400'>
-						I am a Web developer from Los Angeles, CA.
+					<h2 className='mb-8 phone:text-[18px] sm:text-[24px] font-semibold text-gray-400'>
+						I'm a Web developer living in Los Angeles, CA.
 					</h2>
 					<div className='flex flex-col items-center'>
+						<section>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								I have a keen interest in building JavaScript-based frontend
+								technologies for all kinds of devices. I have mostly been
+								working on Video Streaming software for the last six years.
+								Currently, I am a lead engineer (P4) at Disney Streaming, on the
+								applied R&D team building next-gen ad experiences.
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								I transitioned to engineering from a background in music
+								performance as a classical bassist and punk/metal guitarist and
+								vocalist. Outside of work, I love the outdoors and am a humble
+								surfer when I’m not hanging out with my amazing wife and
+								daughter.
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								If any of these things strike a chord with you say hi or let’s
+								connect!
+							</p>
+						</section>
+						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
+							<div className='h-[6px] w-[6px] rounded-full bg-green-400 mr-[4px]'></div>
+							<span>Experience</span>
+						</div>
+						<section>
+							<div className='mt-[20px]'>
+								<h3 className='text-[24px] font-bold'>Coding Temple</h3>
+								<span className='text-[14px] font-semibold text-gray-400'>
+									2023-present
+								</span>
+								<p className='mt-4 tracking-[.04em] text-[17px]'>
+									Now, I'm a career coach, mentor, and educator at Coding
+									Temple, where I guide aspiring developers on their own coding
+									journeys. I believe that strong technical skills are just one
+									piece of the puzzle;
+								</p>
+								<p className='mt-4 tracking-[.04em] text-[17px]'>
+									Now, I'm a career coach, mentor, and educator at Coding
+									Temple, where I guide aspiring developers on their own coding
+									journeys. I believe that strong technical skills are just one
+									piece of the puzzle;
+								</p>
+								<p className='mt-4 tracking-[.04em] text-[17px]'>
+									Now, I'm a career coach, mentor, and educator at Coding
+									Temple, where I guide aspiring developers on their own coding
+									journeys. I believe that strong technical skills are just one
+									piece of the puzzle;
+								</p>
+							</div>
+							<div className='mt-[20px]'>
+								<h3 className='text-[24px] font-bold'>
+									Motortrend (Warner Bros. Discovery)
+								</h3>
+								<span className='text-[14px] font-semibold text-gray-400'>
+									2019-2023
+								</span>
+							</div>
+							<div className='mt-[20px]'>
+								<h3 className='text-[24px] font-bold'>
+									UCLA extension program
+								</h3>
+								<span className='text-[14px] font-semibold text-gray-400'>
+									2018-2019
+								</span>
+							</div>
+						</section>
+						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
+							<div className='h-[6px] w-[6px] rounded-full bg-yellow-400 mr-[4px]'></div>
+							<span>Development</span>
+						</div>
+						<section></section>
+						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
+							<div className='h-[6px] w-[6px] rounded-full bg-blue-400 mr-[4px]'></div>
+							<span>Contact</span>
+						</div>
 						<p>
-							A passionate software engineer with a diverse background and a
-							wide range of interests. I've been working in the tech industry
-							for over a decade, and during that time, I've had the opportunity
-							to work on a variety of projects, from web applications to mobile
-							apps and everything in between.
+							I am a full-stack software engineer with a knack for turning lines
+							of code into engaging user experiences. My journey started at
+							Motortrend, where I worked with amazing engineers building web
+							applications and services for a high-traffic platform. We served
+							two million unique weekly viewers. I thrived on the challenges of
+							developing robust systems, from building streaming applications to
+							working on multi-variant React apps. But my passion for sharing
+							knowledge and empowering others led me down a new path.
 						</p>
 						<p>
-							My journey in the world of technology began when I was just a kid,
-							tinkering with computers and learning to code. I've always been
-							fascinated by the way technology can be used to solve problems and
-							improve people's lives. That's why I decided to pursue a career in
-							software engineering, where I could put my problem-solving skills
-							and creativity to the test.
+							Now, I'm a career coach, mentor, and educator at Coding Temple,
+							where I guide aspiring developers on their own coding journeys. I
+							believe that strong technical skills are just one piece of the
+							puzzle; a successful career also requires effective communication,
+							problem-solving, and a growth mindset. I'm dedicated to fostering
+							these qualities in my students, drawing from my own diverse
+							experiences in the tech industry.
 						</p>
 						<p>
-							Over the years, I've had the chance to work with some amazing
-							teams and collaborate with talented individuals from all over the
-							world. I've learned a lot along the way, and I'm always eager to
-							continue expanding my knowledge and skills. Whether it's exploring
-							new programming languages, diving into the latest frameworks and
-							technologies, or tackling complex technical challenges, I'm always
-							up for a new adventure.
-						</p>
-						<p>
-							When I'm not coding, you can find me exploring the great outdoors,
-							reading a good book, or trying my hand at a new hobby. I'm a
-							passionate traveler, and I love to immerse myself in different
-							cultures and learn about the world around me. I'm also an avid
-							photographer, and I enjoy capturing the beauty of the natural
-							world through my lens.
-						</p>
-						<p>
-							Overall, I'm a curious and driven individual who is always
-							striving to learn and grow. I'm excited to connect with others who
-							share my passion for technology and innovation, and I look forward
-							to collaborating on exciting new projects in the future.
-						</p>
-						<p>
-							Hi there! I'm John Doe, a passionate software engineer with a
-							diverse background and a wide range of interests. I've been
-							working in the tech industry for over a decade, and during that
-							time, I've had the opportunity to work on a variety of projects,
-							from web applications to mobile apps and everything in between.
-						</p>
-						<p>
-							My journey in the world of technology began when I was just a kid,
-							tinkering with computers and learning to code. I've always been
-							fascinated by the way technology can be used to solve problems and
-							improve people's lives. That's why I decided to pursue a career in
-							software engineering, where I could put my problem-solving skills
-							and creativity to the test.
-						</p>
-						<p>
-							Over the years, I've had the chance to work with some amazing
-							teams and collaborate with talented individuals from all over the
-							world. I've learned a lot along the way, and I'm always eager to
-							continue expanding my knowledge and skills. Whether it's exploring
-							new programming languages, diving into the latest frameworks and
-							technologies, or tackling complex technical challenges, I'm always
-							up for a new adventure.
-						</p>
-						<p>
-							When I'm not coding, you can find me exploring the great outdoors,
-							reading a good book, or trying my hand at a new hobby. I'm a
-							passionate traveler, and I love to immerse myself in different
-							cultures and learn about the world around me. I'm also an avid
-							photographer, and I enjoy capturing the beauty of the natural
-							world through my lens.
-						</p>
-						<p>
-							Overall, I'm a curious and driven individual who is always
-							striving to learn and grow. I'm excited to connect with others who
-							share my passion for technology and innovation, and I look forward
-							to collaborating on exciting new projects in the future.
-						</p>
-						<p>
-							Hi there! I'm John Doe, a passionate software engineer with a
-							diverse background and a wide range of interests. I've been
-							working in the tech industry for over a decade, and during that
-							time, I've had the opportunity to work on a variety of projects,
-							from web applications to mobile apps and everything in between.
-						</p>
-						<p>
-							My journey in the world of technology began when I was just a kid,
-							tinkering with computers and learning to code. I've always been
-							fascinated by the way technology can be used to solve problems and
-							improve people's lives. That's why I decided to pursue a career in
-							software engineering, where I could put my problem-solving skills
-							and creativity to the test.
-						</p>
-						<p>
-							Over the years, I've had the chance to work with some amazing
-							teams and collaborate with talented individuals from all over the
-							world. I've learned a lot along the way, and I'm always eager to
-							continue expanding my knowledge and skills. Whether it's exploring
-							new programming languages, diving into the latest frameworks and
-							technologies, or tackling complex technical challenges, I'm always
-							up for a new adventure.
-						</p>
-						<p>
-							When I'm not coding, you can find me exploring the great outdoors,
-							reading a good book, or trying my hand at a new hobby. I'm a
-							passionate traveler, and I love to immerse myself in different
-							cultures and learn about the world around me. I'm also an avid
-							photographer, and I enjoy capturing the beauty of the natural
-							world through my lens.
+							Outside of coding and coaching, I'm a lifelong learner with an
+							entrepreneurial spirit. I constantly seek out new knowledge,
+							whether it's delving into the latest tech trends or exploring a
+							new hobby. My diverse interests include playing music, staying
+							active, reading, and spending quality time with my family.
 						</p>
 						<p>
 							Overall, I'm a curious and driven individual who is always
-							striving to learn and grow. I'm excited to connect with others who
-							share my passion for technology and innovation, and I look forward
-							to collaborating on exciting new projects in the future.
-						</p>
-						<p>
-							Hi there! I'm John Doe, a passionate software engineer with a
-							diverse background and a wide range of interests. I've been
-							working in the tech industry for over a decade, and during that
-							time, I've had the opportunity to work on a variety of projects,
-							from web applications to mobile apps and everything in between.
-						</p>
-						<p>
-							My journey in the world of technology began when I was just a kid,
-							tinkering with computers and learning to code. I've always been
-							fascinated by the way technology can be used to solve problems and
-							improve people's lives. That's why I decided to pursue a career in
-							software engineering, where I could put my problem-solving skills
-							and creativity to the test.
-						</p>
-						<p>
-							Over the years, I've had the chance to work with some amazing
-							teams and collaborate with talented individuals from all over the
-							world. I've learned a lot along the way, and I'm always eager to
-							continue expanding my knowledge and skills. Whether it's exploring
-							new programming languages, diving into the latest frameworks and
-							technologies, or tackling complex technical challenges, I'm always
-							up for a new adventure.
-						</p>
-						<p>
-							When I'm not coding, you can find me exploring the great outdoors,
-							reading a good book, or trying my hand at a new hobby. I'm a
-							passionate traveler, and I love to immerse myself in different
-							cultures and learn about the world around me. I'm also an avid
-							photographer, and I enjoy capturing the beauty of the natural
-							world through my lens.
-						</p>
-						<p>
-							Overall, I'm a curious and driven individual who is always
-							striving to learn and grow. I'm excited to connect with others who
-							share my passion for technology and innovation, and I look forward
-							to collaborating on exciting new projects in the future. You can
-							email me at{' '}
+							striving to learn and grow. I'm always eager to connect with
+							fellow developers, aspiring tech professionals, or anyone who
+							shares my passion for learning and creating. Let's chat about your
+							next career move, your passion project, or even just exchange book
+							recommendations! You can email me at{' '}
 							<a
 								href='mailto:michaeldragomir@gmail.com'
 								className='text-violet-400 active:text-violet-700'
@@ -189,6 +145,7 @@ const MainPage = () => {
 								michaeldragomir@gmail.com
 							</a>
 						</p>
+						{/* TALK ABOUT THE PROJECTS YOU'RE WORKING ON.  LOOK AT JOHAN'S SITE. BREAK IT DOWN INTO SECTIONS. Resume STYLE.  break them up in sections.*/}
 					</div>
 				</div>
 			</div>
