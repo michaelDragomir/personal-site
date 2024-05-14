@@ -2,7 +2,7 @@ import pic from './assets/me.png';
 import gmail from './assets/gmail.svg';
 import linkedIn from './assets/linedIn.svg';
 
-const MainPage = () => {
+const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 	return (
 		<main className='flex mb-[80px] py-[80px] phone:px-[60px] lg:px-[180px]'>
 			<div className='container flex flex-col'>
@@ -23,7 +23,10 @@ const MainPage = () => {
 					</div>
 				</div>
 				<div className='prose prose-gray max-w-none text-gray-300 flex flex-col md:w-[74%]'>
-					<h1 className='sm:text-[40px] font-semibold phone:text-[30px] phone:mt-4'>
+					<h1
+						ref={aboutRef}
+						className='sm:text-[40px] font-semibold phone:text-[30px] phone:mt-4'
+					>
 						Hi👋, I'm Michael Dragomir
 					</h1>
 					<h2 className='mb-8 phone:text-[18px] sm:text-[24px] font-semibold text-gray-400'>
@@ -50,16 +53,42 @@ const MainPage = () => {
 								connect!
 							</p>
 						</section>
+						<div className='mt-[40px]'></div>
 						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
 							<div className='h-[6px] w-[6px] rounded-full bg-green-400 mr-[4px]'></div>
-							<span>Experience</span>
+							<span ref={experienceRef}>Experience</span>
 						</div>
 						<section>
-							<div className='mt-[20px]'>
+							<div className='mt-[8px]'>
 								<h3 className='text-[24px] font-bold'>Coding Temple</h3>
 								<span className='text-[14px] font-semibold text-gray-400'>
 									2023-present
 								</span>
+								<p>
+									Over the years, I've had the chance to work with some amazing
+									teams and // collaborate with talented individuals from all
+									over the world. I've // learned a lot along the way, and I'm
+									always eager to continue expanding // my knowledge and skills.
+									Whether it's exploring new programming // languages, diving
+									into the latest frameworks and technologies, or // tackling
+									complex technical challenges, I'm always up for a new
+									adventure.
+								</p>
+								<p>
+									When I'm not coding, you can find me exploring the great
+									outdoors, // reading a good book, or trying my hand at a new
+									hobby. I'm a passionate // traveler, and I love to immerse
+									myself in different cultures and learn // about the world
+									around me. I'm also an avid photographer, and I enjoy //
+									capturing the beauty of the natural world through my lens.
+								</p>
+								<p>
+									Overall, I'm a curious and driven individual who is always
+									striving to // learn and grow. I'm excited to connect with
+									others who share my passion // for technology and innovation,
+									and I look forward to collaborating on // exciting new
+									projects in the future.
+								</p>
 								<p className='mt-4 tracking-[.04em] text-[17px]'>
 									Now, I'm a career coach, mentor, and educator at Coding
 									Temple, where I guide aspiring developers on their own coding
@@ -98,13 +127,94 @@ const MainPage = () => {
 						</section>
 						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
 							<div className='h-[6px] w-[6px] rounded-full bg-yellow-400 mr-[4px]'></div>
-							<span>Development</span>
+							<span ref={developmentRef}>Development</span>
 						</div>
-						<section></section>
+						<section>
+							<p>
+								When I'm not coding, you can find me exploring the great
+								outdoors, // reading a good book, or trying my hand at a new
+								hobby. I'm a passionate // traveler, and I love to immerse
+								myself in different cultures and learn // about the world around
+								me. I'm also an avid photographer, and I enjoy // capturing the
+								beauty of the natural world through my lens.
+							</p>
+							<p>
+								Overall, I'm a curious and driven individual who is always
+								striving to // learn and grow. I'm excited to connect with
+								others who share my passion // for technology and innovation,
+								and I look forward to collaborating on // exciting new projects
+								in the future.
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+						</section>
 						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
 							<div className='h-[6px] w-[6px] rounded-full bg-blue-400 mr-[4px]'></div>
-							<span>Contact</span>
+							<span ref={contactRef}>Contact</span>
 						</div>
+						<section>
+							<p>
+								When I'm not coding, you can find me exploring the great
+								outdoors, // reading a good book, or trying my hand at a new
+								hobby. I'm a passionate // traveler, and I love to immerse
+								myself in different cultures and learn // about the world around
+								me. I'm also an avid photographer, and I enjoy // capturing the
+								beauty of the natural world through my lens.
+							</p>
+							<p>
+								Overall, I'm a curious and driven individual who is always
+								striving to // learn and grow. I'm excited to connect with
+								others who share my passion // for technology and innovation,
+								and I look forward to collaborating on // exciting new projects
+								in the future.
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								Now, I'm a career coach, mentor, and educator at Coding Temple,
+								where I guide aspiring developers on their own coding journeys.
+								I believe that strong technical skills are just one piece of the
+								puzzle;
+							</p>
+							<p className='mt-4 tracking-[.04em] text-[17px]'>
+								I'm always eager to connect with fellow developers or aspiring
+								tech professionals. If you’re looking for a solid frontend staff
+								level engineer for your team or a technical co-founder to build
+								an impressive MVP I’d love to connect. You can email me at{' '}
+								<a
+									href='mailto:michaeldragomir@gmail.com'
+									className='text-violet-400 active:text-violet-700'
+								>
+									michaeldragomir@gmail.com
+								</a>
+							</p>
+						</section>
 						<p>
 							I am a full-stack software engineer with a knack for turning lines
 							of code into engaging user experiences. My journey started at
@@ -130,20 +240,6 @@ const MainPage = () => {
 							whether it's delving into the latest tech trends or exploring a
 							new hobby. My diverse interests include playing music, staying
 							active, reading, and spending quality time with my family.
-						</p>
-						<p>
-							Overall, I'm a curious and driven individual who is always
-							striving to learn and grow. I'm always eager to connect with
-							fellow developers, aspiring tech professionals, or anyone who
-							shares my passion for learning and creating. Let's chat about your
-							next career move, your passion project, or even just exchange book
-							recommendations! You can email me at{' '}
-							<a
-								href='mailto:michaeldragomir@gmail.com'
-								className='text-violet-400 active:text-violet-700'
-							>
-								michaeldragomir@gmail.com
-							</a>
 						</p>
 						{/* TALK ABOUT THE PROJECTS YOU'RE WORKING ON.  LOOK AT JOHAN'S SITE. BREAK IT DOWN INTO SECTIONS. Resume STYLE.  break them up in sections.*/}
 					</div>
