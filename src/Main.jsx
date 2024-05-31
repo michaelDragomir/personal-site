@@ -45,8 +45,8 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 								I transitioned to engineering from a background in music
 								performance as a classical bassist and punk/metal guitarist and
 								vocalist. Outside of work, I love the outdoors and am a humble
-								surfer when I’m not hanging out with my amazing wife and
-								daughter.
+								surfer when I’m not hanging out with my amazing wife and twin
+								daughters.
 							</p>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								If any of these things strike a chord with you say hi or let’s

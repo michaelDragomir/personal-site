@@ -12,7 +12,7 @@ function App() {
 	const sectionRefs = [aboutRef, experienceRef, developmentRef, contactRef];
 
 	const handleScroll = (section) => {
-		section.current.scrollIntoView({ block: 'end', behavior: 'smooth' });
+		section.current.scrollIntoView({ block: 'start', behavior: 'smooth' });
 	};
 
 	return (
