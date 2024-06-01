@@ -35,9 +35,9 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 					<div className='flex flex-col items-center'>
 						<section>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								I have a keen interest in building full stack technologies for
-								all kinds of devices. looking for a great team to be a part
-								of...
+								I have a keen interest in building full stack technologies, love
+								putting my skills to good use through open source contributions
+								with companies making a true difference in this world.
 							</p>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								I transitioned to engineering from a background in music
