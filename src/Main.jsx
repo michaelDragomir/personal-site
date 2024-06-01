@@ -36,10 +36,8 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 						<section>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								I have a keen interest in building JavaScript-based frontend
-								technologies for all kinds of devices. I have mostly been
-								working on Video Streaming software for the last six years.
-								Currently, I am a lead engineer (P4) at Disney Streaming, on the
-								applied R&D team building next-gen ad experiences.
+								technologies for all kinds of devices. looking for a great team
+								to be a part of...
 							</p>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								I transitioned to engineering from a background in music
