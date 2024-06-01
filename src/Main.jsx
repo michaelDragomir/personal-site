@@ -100,10 +100,12 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 									piece of the puzzle;
 								</p>
 								<p className='mt-4 tracking-[.04em] text-[17px]'>
-									Now, I'm a career coach, mentor, and educator at Coding
-									Temple, where I guide aspiring developers on their own coding
-									journeys. I believe that strong technical skills are just one
-									piece of the puzzle;
+									I'm driven by a desire to empower others to achieve their full
+									potential. As a career coach and mentor, I combine my
+									technical expertise with insightful guidance, helping
+									individuals navigate the tech industry and craft fulfilling
+									careers. I'm passionate about fostering growth mindsets,
+									cultivating technical skills, and unlocking hidden talents.
 								</p>
 							</div>
 							<div className='mt-[20px]'>
