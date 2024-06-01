@@ -22,7 +22,7 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 						</a>
 					</div>
 				</div>
-				<div className='prose prose-gray max-w-none text-gray-300 flex flex-col md:w-[74%]'>
+				<div className='prose prose-gray max-w-none text-gray-200 flex flex-col md:w-[74%]'>
 					<h1
 						ref={aboutRef}
 						className='sm:text-[40px] font-semibold phone:text-[30px] phone:mt-4'
@@ -35,9 +35,9 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 					<div className='flex flex-col items-center'>
 						<section>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								I have a keen interest in building JavaScript-based frontend
-								technologies for all kinds of devices. looking for a great team
-								to be a part of...
+								I have a keen interest in building full stack technologies for
+								all kinds of devices. looking for a great team to be a part
+								of...
 							</p>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								I transitioned to engineering from a background in music
