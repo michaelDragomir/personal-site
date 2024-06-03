@@ -169,33 +169,6 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 							<span ref={contactRef}>Contact</span>
 						</div>
 						<section>
-							<p>
-								When I'm not coding, you can find me exploring the great
-								outdoors, // reading a good book, or trying my hand at a new
-								hobby. I'm a passionate // traveler, and I love to immerse
-								myself in different cultures and learn // about the world around
-								me. I'm also an avid photographer, and I enjoy // capturing the
-								beauty of the natural world through my lens.
-							</p>
-							<p>
-								Overall, I'm a curious and driven individual who is always
-								striving to // learn and grow. I'm excited to connect with
-								others who share my passion // for technology and innovation,
-								and I look forward to collaborating on // exciting new projects
-								in the future.
-							</p>
-							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								Now, I'm a career coach, mentor, and educator at Coding Temple,
-								where I guide aspiring developers on their own coding journeys.
-								I believe that strong technical skills are just one piece of the
-								puzzle;
-							</p>
-							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								Now, I'm a career coach, mentor, and educator at Coding Temple,
-								where I guide aspiring developers on their own coding journeys.
-								I believe that strong technical skills are just one piece of the
-								puzzle;
-							</p>
 							<p className='mt-4 tracking-[.04em] text-[17px]'>
 								Now, I'm a career coach, mentor, and educator at Coding Temple,
 								where I guide aspiring developers on their own coding journeys.
