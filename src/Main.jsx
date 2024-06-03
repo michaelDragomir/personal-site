@@ -151,18 +151,6 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 								I believe that strong technical skills are just one piece of the
 								puzzle;
 							</p>
-							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								Now, I'm a career coach, mentor, and educator at Coding Temple,
-								where I guide aspiring developers on their own coding journeys.
-								I believe that strong technical skills are just one piece of the
-								puzzle;
-							</p>
-							<p className='mt-4 tracking-[.04em] text-[17px]'>
-								Now, I'm a career coach, mentor, and educator at Coding Temple,
-								where I guide aspiring developers on their own coding journeys.
-								I believe that strong technical skills are just one piece of the
-								puzzle;
-							</p>
 						</section>
 						<div className='flex mt-[24px] mb-[12px] p-[8px] rounded-full text-[12px] border border-gray-300 items-center self-start'>
 							<div className='h-[6px] w-[6px] rounded-full bg-blue-400 mr-[4px]'></div>
