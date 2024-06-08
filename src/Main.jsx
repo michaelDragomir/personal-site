@@ -73,6 +73,16 @@ const MainPage = ({ experienceRef, developmentRef, contactRef, aboutRef }) => {
 									adventure.
 								</p>
 								<p>
+									Over the years, I've had the chance to work with some amazing
+									teams and // collaborate with talented individuals from all
+									over the world. I've // learned a lot along the way, and I'm
+									always eager to continue expanding // my knowledge and skills.
+									Whether it's exploring new programming // languages, diving
+									into the latest frameworks and technologies, or // tackling
+									complex technical challenges, I'm always up for a new
+									adventure.
+								</p>
+								<p>
 									Overall, I'm a curious and driven individual who is always
 									striving to // learn and grow. I'm excited to connect with
 									others who share my passion // for technology and innovation,
